@@ -8,16 +8,62 @@
     <title>Produtos</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/components/header.css">
+    <link rel="stylesheet" href="./css/components/search-bar.css">
+    <link rel="stylesheet" href="./css/components/typography.css">
+    <link rel="stylesheet" href="./css/components/product-list.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
 </head>
 
 <body>
     <header class="header">
         <figure class="header__avatar">
-            <img class="header__image" src="./images/profile.jpg">
+            <img class="header__image" src="./images/profile.jpg" alt="Imagem de perfil">
         </figure>
 
         <a class="header__profile" href="./profile.html">Meu perfil</a>
     </header>
+
+    <main>
+        <form class="search-bar">
+            <input class="search-bar__field" placeholder="pesquise pelo produto">
+        </form>
+
+        <h1 class="h1">Produtos</h1>
+
+        <p class="subtitle">Vincent Willem van Gogh foi um pintor holandês considerado uma das figuras mais famosas e
+            influentes da
+            história da arte ocidental. Ele criou mais de dois mil trabalhos em pouco mais de uma década, incluindo por
+            volta de 860 pinturas a óleo, a maioria dos quais durante seus dois últimos anos de vida.</p>
+
+        <ul class="product-list">
+            <li class="product-list__item">
+                <figure class="product-list__figure">
+                    <img class="product-list__image" src="./images/product1.jpg" alt="Imagem do produto" />
+                </figure>
+
+                <p class="product-list__price">R$ 500,00</p>
+                <p class="product-list__description">O Quarto em Arles é uma série de três quadros do impressionista
+                    holandês Vincent van Gogh, pintados
+                    entre outubro de 1878 e setembro de 1889.</p>
+                <p class="product-list__tags">arte, van gogh, quadro</p>
+            </li>
+
+            <li class="product-list__item">
+                <figure class="product-list__figure">
+                    <img class="product-list__image" src="./images/product2.jpg" alt="Imagem do produto" />
+                </figure>
+
+                <p class="product-list__price">R$ 1.000,00</p>
+                <p class="product-list__description">Terraço do Café à Noite, cujo nome completo é O Terraço do Café na
+                    Place du Forum, Arles, à Noite, é uma obra do pintor holandês Vincent van Gogh</p>
+                <p class="product-list__tags">arte, van gogh, quadro</p>
+            </li>
+        </ul>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__title">Quadros do Vincent Van Gogh</p>
+    </footer>
 </body>
 
 </html>

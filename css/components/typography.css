@@ -1,0 +1,22 @@
+.h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.h2 {}
+
+.h3 {}
+
+.h4 {}
+
+.h5 {}
+
+.h6 {}
+
+.subtitle {
+    font-size: 12px;
+    margin-bottom: 16px;
+    color: #7c7c7c;
+}
