@@ -1,0 +1,31 @@
+.button {
+    border-radius: 4px;
+    border: none;
+    padding: 12px;
+    transition: transform 0.5s, box-shadow 1s;
+}
+
+.button:active {
+    transform: scale(0.94);
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button--primary {
+    background-color: #f8d11c;
+    color: #000000;
+}
+
+.button--primary:hover {
+    box-shadow: 0px 0px 12px #f8d11c;
+}
+
+.button--danger {}
+
+.button--warning {}
+
+.button--fullwidth {
+    width: 100%;
+}
